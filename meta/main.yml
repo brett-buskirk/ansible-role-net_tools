@@ -11,17 +11,17 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - all
-galaxy_tags:
-  - networking
-  - network
-  - tools
-  - diagnostics
-  - net-tools
-  - traceroute
-  - netcat
-  - iproute2
-  - system
-  - utility
-  - admin
+  galaxy_tags:
+    - networking
+    - network
+    - tools
+    - diagnostics
+    - net-tools
+    - traceroute
+    - netcat
+    - iproute2
+    - system
+    - utility
+    - admin
 
 dependencies: []
