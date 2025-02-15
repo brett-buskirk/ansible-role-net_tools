@@ -22,7 +22,7 @@ This role has no dependencies.
 - hosts: your_hosts
   become: true
   roles:
-    - brett_buskirk.net_tools
+    - brett-buskirk.net_tools
 ```
 
 ## Installation
@@ -30,7 +30,7 @@ This role has no dependencies.
 You can install this role using Ansible Galaxy:
 
 ```bash
-ansible-galaxy install brett_buskirk.net_tools
+ansible-galaxy install brett-buskirk.net_tools
 ```
 
 Or you can include it in your `requirements.yml` file:
@@ -38,7 +38,7 @@ Or you can include it in your `requirements.yml` file:
 ```yaml
 ---
 roles:
-  - name: brett_buskirk.net_tools
+  - name: brett-buskirk.net_tools
     src: [https://github.com/brett-buskirk/ansible-role-net_tools](https://www.google.com/search?q=https://github.com/brett-buskirk/ansible-role-net_tools)
     version: main # or a specific tag
 ```
