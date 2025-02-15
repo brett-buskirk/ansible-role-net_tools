@@ -1,0 +1,18 @@
+# ref: tasks/main.yml
+
+---
+- name: Update apt cache
+  apt:
+    update_cache: yes
+  become: true
+
+- name: Install networking diagnostic tools
+  apt:
+    name:
+      - net-tools
+      - traceroute
+      - nmap
+      - iproute2
+    state: latest
+  become: true
+  

@@ -1,0 +1,27 @@
+# ref: meta/main.yml
+
+---
+galaxy_info:
+  author: Brett Buskirk
+  description: Ansible role to install networking diagnostic tools.
+  company: RC Journey
+  license: MIT
+  min_ansible_version: "2.9"
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+galaxy_tags:
+  - networking
+  - network
+  - tools
+  - diagnostics
+  - net-tools
+  - traceroute
+  - netcat
+  - iproute2
+  - system
+  - utility
+  - admin
+
+dependencies: []
