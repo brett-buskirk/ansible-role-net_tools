@@ -39,7 +39,7 @@ Or you can include it in your `requirements.yml` file:
 ---
 roles:
   - name: brett-buskirk.net_tools
-    src: [https://github.com/brett-buskirk/ansible-role-net_tools](https://www.google.com/search?q=https://github.com/brett-buskirk/ansible-role-net_tools)
+    src: https://github.com/brett-buskirk/ansible-role-net_tools
     version: main # or a specific tag
 ```
 
